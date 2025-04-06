@@ -1,0 +1,27 @@
+body{
+    background: linear-gradient(135deg, #ffe6e6 0%, #e6e6ff 100%);
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+p,h3,button,label,input::placeholder{
+    color:#F79489;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1)
+}
+.container{
+    background: rgba(255, 255, 255, 0.8);
+    max-width:600px;
+    width:100%;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 3vh auto;
+    border-style: outset;
+    border-width: thin;
+    border-color: #F79489;
+    height: 100vh;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+button:active{
+    opacity: 0.7;
+}
