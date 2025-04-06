@@ -1,54 +1,79 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📝 ToDo App
 
-Currently, two official plugins are available:
+A simple and elegant ToDo list application built with **React** and **TypeScript**, designed for smooth task management and a beautiful user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- ✅ Add, edit, complete, and delete tasks
+- 💾 Persistent state using `localStorage`
+- 🎨 Responsive and modern UI with soft color palette
+- 🧠 Built with React functional components and hooks
+- 🧼 Clean, modular codebase using TypeScript
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Live Demo
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+https://ktlvi-todo-list.netlify.app
+
+## 📸 Preview
+
+![image](https://github.com/user-attachments/assets/9b850ae7-bf2b-41eb-b7dc-e7f054cfc86e)
+
+
+## 🛠️ Tech Stack
+
+- **React** (with Hooks)
+- **TypeScript**
+- **CSS3** (custom styling with responsive design)
+- **LocalStorage** (for saving tasks)
+
+## 📂 Project Structure
+
+```
+src/
+├── components/
+│   ├── TaskForm.tsx
+│   └── Task.tsx
+├── styles/
+│   ├── TaskForm.css
+│   └── Task.css
+├── App.tsx
+└── index.tsx
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📦 Installation
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/your-username/todo-react-app.git
+   cd todo-react-app
+   ```
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+2. **Install dependencies**  
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**  
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## 🧪 Build for Production
+
+```bash
+npm run build
 ```
+## 🤝 Contributing
+
+Feel free to fork the repo, open issues, or submit pull requests to improve the app!
+
+
+Made with 💗 using React
+```
+
+---
+
+Let me know if you want to add deployment instructions (e.g. for Vercel/Netlify), GitHub Pages setup, or a Ukrainian version too 🇺🇦
