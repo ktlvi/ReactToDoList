@@ -73,7 +73,3 @@ Feel free to fork the repo, open issues, or submit pull requests to improve the 
 
 Made with 💗 using React
 ```
-
----
-
-Let me know if you want to add deployment instructions (e.g. for Vercel/Netlify), GitHub Pages setup, or a Ukrainian version too 🇺🇦
